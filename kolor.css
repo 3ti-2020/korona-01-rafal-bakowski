@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+    "a a a"
+    "b b b";
+}
+
+.a{
+    grid-area: a;
+    background: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.b{
+    grid-area: b;
+    background: sandybrown;
+    border: crimson solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color:goldenrod;
+    font-style: oblique;
+    
+}
+
+.f1{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    padding: 15px;
+    border: black solid 1px;
+}
+
+.logo{
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+
+.powrot{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-size: small;
+    background: goldenrod;
+    color: darkred;
+    
+}
+
+.tabela{
+    background: crimson;
+    border: crimson solid 2px ;
+    
+}
+.th{
+    background: darkgoldenrod;
+}
+
+.col{
+    background: goldenrod;
+    color: darkred;
+}
+
+.col:hover{
+    background: lightsalmon;
+    color: darkred;
+    
+}

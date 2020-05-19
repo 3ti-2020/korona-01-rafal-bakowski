@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+    "a a a"
+    "b b c";
+}
+
+.a{
+    grid-area: a;
+    background: firebrick;
+    
+}
+
+.b{
+    grid-area: b;
+    background: sandybrown;
+    border: crimson solid 1px;
+}
+
+.c{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    border: crimson solid 1px;
+    background-color: darksalmon;
+    
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    color:goldenrod;
+    font-style: oblique;
+    
+}
+
+
+a{
+    color: crimson;
+    
+}
+li{
+    list-style: none;
+}
+.praca{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-size: small;
+    background: goldenrod;
+    color: darkred;
+}
+
+.par{
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    color: darkred;
+}
+
+.f1{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    padding: 15px;
+    border: black solid 1px;
+}
+
+.tabela{
+    background: crimson;
+    border: crimson solid 2px ;
+    
+}
+.th{
+    background: darkgoldenrod;
+}
+
+.col{
+    background: goldenrod;
+    color: darkred;
+}
+
+.col:hover{
+    background: lightsalmon;
+    color: darkred;
+    
+}
