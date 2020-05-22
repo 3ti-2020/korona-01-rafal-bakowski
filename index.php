@@ -3,7 +3,7 @@
   <head>
     <title>Rafał Bakowski</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="glowna.css">
+    <link rel="stylesheet" href="glownaa.css">
   </head>
 
   <body>
@@ -64,11 +64,13 @@ echo("</table>");
           <a href="kolor.php"><li>NAJPOPULARNIEJSZA MARKI I LAKIERY</li></a>
       </ul>
     </br>
-      <img src="https://cdn.pixabay.com/photo/2014/04/02/16/19/paint-306917_960_720.png" width="120px" height="80px">    
+      <img src="https://cdn.pixabay.com/photo/2014/04/02/16/19/paint-306917_960_720.png" width="120px" height="80px">  
+</br> </br> 
+      <a href="java.html">KALKULATOR</a> 
     </div>
 
 
     </div>
   </body>
-  <script src="index.js"></script>
+  <script src="kolor.js"></script>
 </html>

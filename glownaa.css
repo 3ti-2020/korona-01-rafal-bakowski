@@ -10,13 +10,22 @@
     grid-template-rows: 1fr 4fr;
     grid-template-areas: 
     "a a a"
-    "b b b";
+    "b b c";
 }
 
 .a{
     grid-area: a;
     background: firebrick;
-    display: flex;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a1{
+    grid-area: a;
+    background: lightblue;
+     display: flex;
     justify-content: center;
     align-items: center;
     
@@ -26,13 +35,40 @@
     grid-area: b;
     background: sandybrown;
     border: crimson solid 1px;
-    display: flex;
-    flex-direction: column;
+     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.b1{
+    grid-area: b;
+    background: goldenrod;
+    border: crimson solid 1px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    border: crimson solid 1px;
+    background-color: darksalmon;
+    
     
 }
+
+.c1{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    border: crimson solid 1px;
+    background-color: gold;
+    
+    
+}
+
 
 
 
@@ -41,15 +77,30 @@ h1{
     font-style: oblique;
     
 }
-.a5{
+
+
+a{
+    color: crimson;
+    
+}
+li{
+    list-style: none;
+}
+.praca{
     position: absolute;
+    top: 1%;
     left: 2%;
-    top: 50%;
+    font-size: small;
+    background: goldenrod;
+    color: darkred;
 }
 
-
-
-
+.par{
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    color: darkred;
+}
 
 .f1{
     position: absolute;
@@ -57,16 +108,6 @@ h1{
     right: 5%;
     padding: 15px;
     border: black solid 1px;
-}
-
-.powrot{
-    position: absolute;
-    top: 1%;
-    left: 2%;
-    font-size: small;
-    background: goldenrod;
-    color: darkred;
-    
 }
 
 .tabela{
